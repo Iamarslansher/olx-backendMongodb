@@ -1,0 +1,39 @@
+.updateCard {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.card-input {
+  width: calc(100% - 40px);
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.card-image {
+  margin-bottom: 15px;
+}
+
+.card-image input[type="text"] {
+  width: 100%;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-content input[type="number"] {
+  width: 120px;
+}
+
+.card-content textarea {
+  resize: none;
+  height: 100px;
+}
